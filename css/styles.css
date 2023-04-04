@@ -1,0 +1,174 @@
+:root {
+	--iris: #4D5AE5;
+	--ocean: #404BBF;
+	--navy-blue: #2E2F42;
+	--green: #31D0AA;
+	--slate: #434455;
+	--light-slate: #8E8F99;
+	--cornflower: #E7E9FC;
+	--cloud: #F4F4FD;
+	--navy-blue-modal: #2E2F42 40%;
+	--grey: #2E2F42 70%;
+	--white: #FFFFFF;
+	--dairy: #FCFCFC;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color:#434455  ;
+    background-color:#FFFFFF ;
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.logo_span {
+    color: #2e2f42;
+}
+.ftr .logo_span {
+  color:  #f4f4fd;  
+}
+
+.list_item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42 ;
+}
+.nav-list .link:hover{
+    color: #404bbf
+}
+.nav-list .link:focus {
+    color: #404bbf
+}
+.add-ress {
+    font-style: normal
+}
+.add_style {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.add-list .link:hover {
+    color: #404bbf;
+}
+.add-list .link:focus {
+    color: #404bbf;
+}
+.hero {
+    background-color: #2e2f42;
+}
+.hero_title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    }
+    .hero_btn {
+        background-color: #4D5AE5;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        cursor: pointer;
+    }
+    .hero .hero_btn:hover,
+    .hero .hero_btn:focus {
+       background-color:  #404BBF;  
+    }
+    .q_section_item_title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42 ;
+    }
+    .q_section_item_txt {
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+    .a_section_title {
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2e2f42 ;
+    }
+    .t_section {
+        background-color:  #F4F4FD;
+    }
+    .t_section_title {
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color:  #2e2f42 ;
+    }
+    .t_section_list_item {
+        background-color:  #FFFFFF ;
+    }
+    .t_section_list_item_ttl {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+    }
+    .t_section_list_item_txt {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+    .o_section_btn {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        background-color:  #F4F4FD;
+        color: #4d5ae5 ;
+        cursor: pointer;
+    }
+
+    .o_section_btn:hover,
+    .o_section_btn:focus {
+        color: #FFFFFF;
+    }
+    .o_section_btn:hover,
+    .o_section_btn:focus {
+     background-color: #404BBF;
+    }
+
+    .o_section_item_title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+    }
+    .o_section_item_txt {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+    }
+    .ftr {
+        background-color: #2e2f42;
+    }
