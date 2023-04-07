@@ -18,13 +18,39 @@ body {
     color:var(--slate);
     background-color: var(--white) ;
 }
+.img {
+    display: block;
+}
 .list {
     list-style: none;
 }
 .link {
     text-decoration: none;
 }
+.img {
+    display: block;
+}
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ /* Header styles */
+ .header {
+    background-color: var(--cornflower);
+ }
+.header-content-container {
+    display: flex;
+    align-items: center;
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+}
 .logo {
+    display: block;
+    margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -41,12 +67,20 @@ body {
 }
 
 .list_item {
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue) ;
 }
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+
+}
+
 .nav-list .link:hover{
     color: var(--ocean);
 }
@@ -61,12 +95,18 @@ body {
     letter-spacing: 0.02em;
     color: var(--slate);
 }
+.add-list {
+    display: flex;
+    gap: 40px;
+}
 .add-list .link:hover {
     color: var(--ocean);
 }
 .add-list .link:focus {
     color: var(--ocean);
 }
+
+
 .hero {
     background-color: var(--navy-blue);
 }
