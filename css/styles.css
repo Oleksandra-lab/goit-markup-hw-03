@@ -171,13 +171,26 @@ body {
         line-height: 1.5;
         letter-spacing: 0.02em;
     }
+    /*A-section styles*/
+    .a_section {
+        padding-bottom: 120px;
+    }
     .a_section_title {
+        margin-bottom: 72px;
         font-size: 36px;
         line-height: 1.11;
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: var(--navy-blue) ;
+    }
+
+    .a_section_list {
+        display: flex;
+    }
+    .a_section_item {
+        margin-right: 24px;
+        width: calc((100% - 48px) / 3);
     }
     .t_section {
         background-color:  var(--cloud);
@@ -240,6 +253,15 @@ body {
         ;
     }
     .ftr {
+        padding: 100px 0 
         background-color: var(--navy-blue);
        
+    }
+    .ftr-logo {
+        display: inline-block;
+        margin-bottom: 16px;
+
+    }
+    .ftr-txt {
+        max-width: 264px;
     }
