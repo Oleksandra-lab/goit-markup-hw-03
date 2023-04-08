@@ -235,7 +235,22 @@ body {
         line-height: 1.5;
         letter-spacing: 0.02em;
     }
+    /* Portfolio */
+    .portfolio-section {
+        padding: 96px 120px;
+    }
+    /* Options styles  */
+    .o_section_list {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin-bottom: 72px;
+    }
+
     .o_section_btn {
+        padding: 12px 24px;
+        border: 1px solid var(--cornflower);
+        border-radius: 4px;
         font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
@@ -252,6 +267,7 @@ body {
     }
     .o_section_btn:hover,
     .o_section_btn:focus {
+        border: 1px solid transparent ;
      background-color: var(--ocean);
     }
 
