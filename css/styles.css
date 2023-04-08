@@ -277,7 +277,9 @@ body {
     .o_section_item {
         width: calc((100% - 48px) / 3); 
     }
-    .o_section_item {
+    
+    .card-description {
+        display: inline-block;
         padding: 32px 16px;
         border: 1px solid var(--cornflower);
         border-top: none; 
