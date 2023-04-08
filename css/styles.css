@@ -150,10 +150,10 @@ body {
     }
     .q_section-list {
         display: flex;
+        gap: 24px;
         
     }
     .q_section_item {
-        margin-right: 24px;
         width: calc((100% - 72px) / 4);
         
     }
@@ -185,9 +185,9 @@ body {
 
     .a_section_list {
         display: flex;
+        gap: 24px;
     }
     .a_section_item {
-        margin-right: 24px;
         width: calc((100% - 48px) / 3);
     }
     /* Team section */
@@ -235,7 +235,7 @@ body {
     }
     /* Portfolio */
     .portfolio-section {
-        padding: 96px 120px;
+        padding: 96px 0 120px;
     }
     /* Options styles  */
     .o_section_btn_list {
@@ -283,9 +283,10 @@ body {
         padding: 32px 16px;
         border: 1px solid var(--cornflower);
         border-top: none; 
-        margin-bottom: 8px;
+        
     }
     .o_section_item_title {
+        margin-bottom: 8px;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
