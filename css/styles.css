@@ -251,6 +251,7 @@ body {
         ;
     }
     .ftr {
+        padding: 100px 0;
         background-color: var(--navy-blue);
        
     }
