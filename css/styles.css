@@ -49,7 +49,7 @@ body {
  /* Header styles */
  .header {
     border-bottom: 1px solid  var(--cornflower);
-    background-color: var(--cornflower)
+
 
  }
 .header .container {
@@ -64,7 +64,6 @@ body {
 }
 .logo {
     display: block;
-    margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -73,8 +72,11 @@ body {
     text-transform: uppercase;
     color: var(--iris);
 }
-.logo_span {
-    color: var(--navy-blue-modal);
+.header-logo {
+     margin-right: 76px;
+}
+.header  .logo_span {
+    color: var(--navy-blue);
 }
 
 .nav_list_item {
@@ -156,20 +158,20 @@ body {
     .hero .hero_btn:focus {
        background-color:  var(--ocean);  
     }
-    /* Q-section styes */
-    .q_section {
+    /* Qualities section styes */
+    .qualities_section {
         padding: 120px 0;
     }
-    .q_section-list {
+    .qualities_section-list {
         display: flex;
         gap: 24px;
         
     }
-    .q_section_item {
+    .qualities_section_item {
         width: calc((100% - 72px) / 4);
         
     }
-    .q_section_item_title {
+    .qualities_section_item_title {
         margin-bottom: 8px;
         font-weight: 500;
         font-size: 20px;
@@ -177,15 +179,15 @@ body {
         letter-spacing: 0.02em;
         color: var(--navy-blue) ;
     }
-    .q_section_item_txt {
+    .qualities_section_item_txt {
         line-height: 1.5;
         letter-spacing: 0.02em;
     }
-    /*A-section styles*/
-    .a_section {
+    /*About section styles*/
+    .about_section {
         padding-bottom: 120px;
     }
-    .a_section_title {
+    .about_section_title {
         margin-bottom: 72px;
         font-size: 36px;
         line-height: 1.11;
@@ -195,19 +197,19 @@ body {
         color: var(--navy-blue) ;
     }
 
-    .a_section_list {
+    .about_section_list {
         display: flex;
         gap: 24px;
     }
-    .a_section_item {
+    .about_section_item {
         width: calc((100% - 48px) / 3);
     }
     /* Team section */
-    .t_section {
+    .team_section {
         padding: 120px 0;
         background-color:  var(--cloud);
     }
-    .t_section_title {
+    .team_section_title {
         margin-bottom: 72px;
         font-size: 36px;
         line-height: 1.11;
@@ -216,20 +218,20 @@ body {
         text-transform: capitalize;
         color:  var(--navy-blue) ;
     }
-    .t_section_list {
+    .team_section_list {
         display: flex;
         gap: 24px;
     }
-    .t_section_list_item {
+    .team_section_list_item {
         background-color:  var(--white) ;
+        border-radius: 0px 0px 4px 4px;
     }
     .emp-name {
-        display: inline-block;
         padding: 32px 16px;
         border-radius: 0px 0px 4px 4px;
     }
     
-    .t_section_list_item_ttl {
+    .team_section_list_item_ttl {
         display: block;
         margin-bottom: 8px;
         font-weight: 500;
@@ -239,7 +241,7 @@ body {
         text-align: center;
         color: var(--navy-blue);
     }
-    .t_section_list_item_txt {
+    .team_section_list_item_txt {
         text-align: center;
         font-size: 16px;
         line-height: 1.5;
@@ -249,15 +251,15 @@ body {
     .portfolio-section {
         padding: 96px 0 120px;
     }
-    /* Options styles  */
-    .o_section_btn_list {
+    /* Options section styles  */
+    .options_section_btn_list {
         display: flex;
         justify-content: center;
         gap: 24px;
         margin-bottom: 72px;
     }
     
-    .o_section_btn {
+    .options_section_btn {
         padding: 12px 24px;
         border: 1px solid var(--cornflower);
         border-radius: 4px;
@@ -271,33 +273,32 @@ body {
         cursor: pointer;
     }
 
-    .o_section_btn:hover,
-    .o_section_btn:focus {
+    .options_section_btn:hover,
+    .options_section_btn:focus {
         color: var(--white);
     }
-    .o_section_btn:hover,
-    .o_section_btn:focus {
+    .options_section_btn:hover,
+    .options_section_btn:focus {
         border: 1px solid transparent ;
      background-color: var(--ocean);
     }
-    .o_section_list {
+    .options_section_list {
         display: flex;
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 48px;
     }
-    .o_section_item {
+    .options_section_item {
         width: calc((100% - 48px) / 3); 
     }
     
     .card-description {
-        display: inline-block;
         padding: 32px 16px;
         border: 1px solid var(--cornflower);
         border-top: none; 
         
     }
-    .o_section_item_title {
+    .options_section_item_title {
         margin-bottom: 8px;
         font-weight: 500;
         font-size: 20px;
@@ -305,29 +306,33 @@ body {
         letter-spacing: 0.02em;
         color: var(--navy-blue);
     }
-    .o_section_item_txt {
+    .options_section_item_txt {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--slate);
         ;
     }
-    .ftr_ {
+    /* Footer */
+    .footer {
         padding: 100px 0;
         background-color: var(--navy-blue);
     }
     
     
-    .ftr-logo {
+    .footer-logo {
         display: inline-block;
         margin-bottom: 16px;
 
     }
-    .ftr_ .logo_span {
+    .footer .logo_span {
         color:  var(--cloud);  
       }
       
-    .ftr-txt {
+    .footer-txt {
         width: 264px;
-        margin-bottom: 180px;
+        color: var(--cloud);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
     }
